@@ -1,5 +1,5 @@
-# playground
-Testing out materials for CSCI644
+# Gcloud Docker Container
+Initial code for using Google's gcloud APIs from a docker container, instructions to use below.
 
 
 ## Gcloud
