@@ -22,7 +22,7 @@ docker run -ti --name gcloud-config gcloud-gcloud gcloud auth login
 4. Run docker container
 
 ```bash
-docker-compose run gcloud /bin/bash
+docker compose run gcloud /bin/bash
 ```
 
 Now should have a terminal that can run gcloud commands from docker.
