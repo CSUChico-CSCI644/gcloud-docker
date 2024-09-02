@@ -10,7 +10,8 @@ Adapted from documentation: https://cloud.google.com/sdk/docs/downloads-docker
 2. Build docker container
 
 ```bash
-docker-compose build gcloud
+cd gcloud
+docker compose build gcloud
 ```
 3. Auth Google
 
