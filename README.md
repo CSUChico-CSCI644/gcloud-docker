@@ -7,20 +7,27 @@ Adapted from documentation: https://cloud.google.com/sdk/docs/downloads-docker
 
 1. Clone this repo
 
+2. Pull Docker Image From Google
 
-2. Auth Google
+```bash
+docker pull gcr.io/google.com/cloudsdktool/google-cloud-cli:stable
+```
+
+
+3. Auth Google
 
 ```bash
 cd gcloud
 docker run -ti --name gcloud-config gcloud-gcloud gcloud auth login
 ```
-3. Build docker container
+
+4. Build docker container
 
 ```bash
 docker compose build gcloud
 ```
 
-4. Run docker container
+5. Run docker container
 
 ```bash
 docker compose run gcloud /bin/bash
