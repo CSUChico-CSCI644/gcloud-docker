@@ -7,16 +7,17 @@ Adapted from documentation: https://cloud.google.com/sdk/docs/downloads-docker
 
 1. Clone this repo
 
-2. Build docker container
+
+2. Auth Google
 
 ```bash
 cd gcloud
-docker compose build gcloud
+docker run -ti --name gcloud-config gcloud-gcloud gcloud auth login
 ```
-3. Auth Google
+3. Build docker container
 
 ```bash
-docker run -ti --name gcloud-config gcloud-gcloud gcloud auth login
+docker compose build gcloud
 ```
 
 4. Run docker container
