@@ -18,7 +18,7 @@ docker pull gcr.io/google.com/cloudsdktool/google-cloud-cli:stable
 
 ```bash
 cd gcloud
-docker run -ti --name gcloud-config gcloud-gcloud gcloud auth login
+docker run -ti --name gcloud-config gcr.io/google.com/cloudsdktool/google-cloud-cli:stable gcloud auth login
 ```
 
 4. Build docker container
